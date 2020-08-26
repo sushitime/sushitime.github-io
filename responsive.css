@@ -1,0 +1,169 @@
+@media only screen and (min-width: 700px)
+{
+	#menu-mobile, #banner-mobil, #cart
+	{
+		display: none;
+	}
+	#menu-main
+	{
+		display: block;
+	}
+	#logo-main
+	{
+		width: 70px;
+		top: 5px;
+		left: 50px;
+		position: absolute;
+	}
+	#menu-one
+	{
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-left: 100px;
+		background-color: rgba(1,1,1,0.1);
+	}
+	#social
+	{
+		width: 300px;
+		height: 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#social img
+	{
+		width: 40px;
+		height: 40px;
+		transition: transform .5s;
+	}
+	#social img:hover
+	{
+		transform: rotate(15deg);
+	}
+	#cart-main
+	{
+		background-color: #cf1313;
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#cart-main:hover
+	{
+		  box-shadow: 0 0 10px rgba(1,1,1,0.5);
+	}
+	#menu-two
+	{
+		height: 50px;
+	}
+	#menu-catalog
+	{
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+		justify-content: center;
+		height: 50px;
+	}
+	#menu-catalog li
+	{
+		margin-right: 25px;
+		border: 2px solid white;
+		border-radius: 5px;
+		padding: 5px;
+		transition: border .5s;
+	}
+	#menu-catalog li:hover
+	{
+		border: 2px solid #cf1313;
+	}
+	#phone-main
+	{
+		font-weight: bold;
+	}
+	#phone-main li a
+	{
+		color: #cf1313;
+		font-size: 20px;
+	}
+	main
+	{
+		margin-top: 0;
+	}
+	main h1
+	{
+		width: 100%;
+		margin: 0;
+		padding-left: 50px;
+		padding-top: 20px;
+	}
+	.title
+	{
+		margin-left: 50px;
+	}
+	#banner-main
+	{
+	  display: block;
+	  height: 350px;
+	  width: 100%;
+	  background-color: #cf1313;
+	}
+
+	.product-main
+	{
+	 	display: flex;
+	 	flex-wrap: wrap;
+	 	justify-content: center;
+	 	max-width: 1000px;
+	}
+	.product-block
+	{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	.product-block a
+	{
+		z-index: 10;
+	}
+	.product-block p
+	{
+		height: 70px;
+		overflow-y: auto;
+		margin-bottom: 10px;
+	}
+	.product-block h3
+	{
+		height: 60px;
+	}
+
+}
+@media only screen and (min-width: 1700px)
+{
+	main h1
+	{
+		padding-left: 350px;
+	}
+	#logo-main
+	{
+		top: 10px;
+		width: 100px;
+	}
+	#menu-one
+	{
+		padding-left: 610px;
+		justify-content: space-between;
+		padding-right: 650px;
+	}
+	.title
+	{
+		margin-left: 350px;
+	}
+	#menu-main img
+	{
+		left: 350px;
+	}
+}
