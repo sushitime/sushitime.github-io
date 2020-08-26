@@ -1,2 +1,2 @@
-# sushitime.github-io
+# sushitime.github.io
 hosting
